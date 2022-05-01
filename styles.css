@@ -80,6 +80,25 @@ input, button {
     opacity: 0.6;
 }
 
+.clear-all {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.clear-all:hoover {
+    opacity: 0.8;
+}
+
+.clear-all:active {
+    opacity: 0.6;
+}
+
 main {
     flex: 1 1 0%;
     padding:  2rem 1rem;
