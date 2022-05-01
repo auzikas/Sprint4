@@ -35,3 +35,8 @@ const handleCreatItem = (text) => {
         listContainer.appendChild(item);
         shoppingInput.value = '';
 }
+
+const handleAddItemToShoppingList = (e) => {
+    e.preventDefault();
+    handleCreatItem();
+}
