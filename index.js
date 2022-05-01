@@ -45,8 +45,8 @@ const handleEditItem = (contentInput, editBtn) => {
 
 const handleClearAll = (event) => {
     event.preventDefault()
-    const items = document.querySelector('.items');
-    items.remove();
+    const items = document.querySelectorAll('.item');
+    items.forEach(item => item.remove());
     shoppingList = [];
     localStorage.clear();
 }
