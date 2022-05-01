@@ -40,3 +40,6 @@ const handleAddItemToShoppingList = (e) => {
     e.preventDefault();
     handleCreatItem();
 }
+
+
+addItemButton.addEventListener("click", handleAddItemToShoppingList);
